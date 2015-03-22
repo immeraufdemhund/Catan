@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "catan", "catan\catan.csproj", "{D3FA60BE-835A-44B3-BCD8-DA831F2DEE6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catan", "catan\Catan.csproj", "{D3FA60BE-835A-44B3-BCD8-DA831F2DEE6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catan.Tests", "Catan.Tests\Catan.Tests.csproj", "{2AC6087F-CA95-403A-A5A4-3356C0361FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catan.Models", "Catan.Models\Catan.Models.csproj", "{0D67C949-6A4D-4ED5-BC38-2B2E92E20770}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D3FA60BE-835A-44B3-BCD8-DA831F2DEE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3FA60BE-835A-44B3-BCD8-DA831F2DEE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3FA60BE-835A-44B3-BCD8-DA831F2DEE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC6087F-CA95-403A-A5A4-3356C0361FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC6087F-CA95-403A-A5A4-3356C0361FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC6087F-CA95-403A-A5A4-3356C0361FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC6087F-CA95-403A-A5A4-3356C0361FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D67C949-6A4D-4ED5-BC38-2B2E92E20770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D67C949-6A4D-4ED5-BC38-2B2E92E20770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D67C949-6A4D-4ED5-BC38-2B2E92E20770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D67C949-6A4D-4ED5-BC38-2B2E92E20770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
