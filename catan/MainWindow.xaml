@@ -1,8 +1,43 @@
 ﻿<Window x:Class="catan.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        xmlns:r="clr-namespace:catan.ResourceTiles"
+        Title="MainWindow" SizeToContent="WidthAndHeight" DataContext="{StaticResource MainWindowViewModel}">
+    <Grid Background="SkyBlue" Height="900" Width="1100">
+        <Canvas>
+            <StackPanel Orientation="Horizontal" Canvas.Left="250" Canvas.Top="50">
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[0]}" />
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[1]}" />
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[2]}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Canvas.Left="150" Canvas.Top="200">
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[3]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[4]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[5]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[6]}"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Canvas.Left="50" Canvas.Top="350">
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[7]}" />
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[8]}" />
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[9]}" />
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[10]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[11]}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Canvas.Left="150" Canvas.Top="500">
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[12]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[13]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[14]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[15]}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Canvas.Left="250" Canvas.Top="650">
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[16]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[17]}"/>
+                <r:ResourceTileView DataContext="{Binding ResourceTiles[18]}"/>
+            </StackPanel>
+        </Canvas>
     </Grid>
 </Window>

@@ -3,7 +3,12 @@
     public class ResourceTile
     {
         public ResourceType ResourceType { get; set; }
-        public int Number { get; set; }
-        public char Letter { get; set; }
+        public ResourceMarker Marker { get; set; }
+
+        public ResourceTile(int number, ResourceType resourceType)
+        {
+            ResourceType = resourceType;
+            Marker = new ResourceMarker(number);
+        }
     }
 }
